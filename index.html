@@ -6,9 +6,9 @@
 <link rel="stylesheet" href="mystyle.css"><!--この行を追加-->
 <script src="myjs.js"></script><!--この行を追加-->
 <script src="ex6-1.js"></script>
-<script src="ex06-5.js"></script>
-<script src="ex06-7.js"></script>
-<script src="ex06-8.js"></script>
+<script src="ex6-5.js"></script>
+<script src="ex6-7.js"></script>
+<script src="ex6-8.js"></script>
 </head>
 <body>
   <!--文字の大きさの練習
@@ -205,14 +205,15 @@ onclick="sayhello();sayhello();">
 
 <h1>変数の練習6-6</h1>
 <input type="button" value="あいさつ" onclick="sayhello66();">
-<input type="button" value="太郎" onclick="taro66('太郎が来た');">
-<input type="button" value="花子" onclick="hanako66('花子が来た');">
+<input type="button" value="太郎が来た" onclick="taro66();">
+<input type="button" value="花子が来た" onclick="hanako66();">
 
 
 <h1>引数の練習6-7</h1>
 <input type="button" value="あいさつ" onclick="sayhello();">
 <input type="button" value="太郎" onclick="someone('太郎');">
 <input type="button" value="花子" onclick="someone('花子');">
+
 <input type="button" value="レイ" onclick="someone('レイ');">
 <input type="button" value="シンジ" onclick="someone('シンジ');">
 <input type="button" value="アスカ" onclick="someone('アスカ');">
@@ -222,6 +223,13 @@ onclick="sayhello();sayhello();">
 <input type="button" value="太郎" onclick="taro();">
 <input type="button" value="花子" onclick="hanako();">
 <p id="who">world</p>
+
+<h1>JavaScriptによるページの変更6-9</h1>
+<div id="txt1" >
+<input type="button" value="テキストの変更" 
+onclick="txtchange1();">
+城西大学</div>
+
 
 </body>
 </html>
