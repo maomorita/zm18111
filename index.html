@@ -6,9 +6,17 @@
 <link rel="stylesheet" href="mystyle.css"><!--この行を追加-->
 <script src="myjs.js"></script><!--この行を追加-->
 <script src="ex6-1.js"></script>
+<script src="ex6-2.js"></script>
+<script src="ex6-3.js"></script>
+<script src="ex6-4.js"></script>
 <script src="ex6-5.js"></script>
 <script src="ex6-7.js"></script>
 <script src="ex6-8.js"></script>
+<script src="ex6-9.js"></script>
+<script src="ex6-10.js"></script>
+<script src="ex06-11.js"></script>
+<script src="ex07-1.js"></script>
+
 </head>
 <body>
   <!--文字の大きさの練習
@@ -195,8 +203,9 @@ src="./image/josai.png" alt="城西大学経営学部ホームページ"></a>
 -->
 
 
+<h1>関数の呼び出し6-1</h1>
 <input type="button" value="ここをクリック" 
-onclick="sayhello();sayhello();">
+onclick="sayhello61();sayhello61();">
 
 <h1>変数の練習6-5</h1>
 <input type="button" value="あいさつ" onclick="sayhello65();">
@@ -230,6 +239,26 @@ onclick="sayhello();sayhello();">
 onclick="txtchange1();">
 城西大学</div>
 
+<h1>JavaScriptによるページの変更6-10</h1>
+<div id="image1" ><input type="button" value="画像の変更" 
+onclick="imgchange1();">
+<imgsrc='./image/josai.png' id="logo" alt="Josai
+Logo"></div>
+setTimeout('alert("3 seconds have passed");', 
+3000);
+
+<h1>JavaScriptによるページの変更6-11</h1>
+<div id="image1" ><input type="button" value="画像の変更" 
+onclick="imgchange1();">
+<imgsrc='./image/josai.png' id="logo" alt="Josai
+Logo"></div>
+setTimeout('alert("3 seconds have passed");', 
+3000);
+
+<h1>テキスト入力の練習7-1</h1>
+<input type="button" value="あいさつ" 
+onclick="sayhello71();">
+<p>誰？<input type="text" id="who71"></p>
 
 </body>
 </html>
